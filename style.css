@@ -1,0 +1,50 @@
+body{
+    background: linear-gradient(to left bottom, red 10%, orange 35%, yellow 50%, blue 100%);
+}
+
+.heading{
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+}
+
+.heading span{
+    font-size: 18px;
+    width: 100%;
+    margin: 0px;
+    color: rgb(0, 238, 255);
+}
+
+#start, #number_of_objects, #status{
+    font-size: 18px;
+}
+
+#number_of_objects, #status{
+    font-size: 16px;
+}
+
+#object_name{
+    font-size: 18px;
+    text-align: center;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.copy_right_footer{
+    position: fixed;
+    font-size: 16px;
+    width: 100%;
+    line-height: 3;
+    bottom: 0;
+    text-align: center;
+    color: cornflowerblue;
+    background-color: rgb(30, 255, 0);
+    font-weight: bold;
+}
+
+canvas{
+    border: 7px solid white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 18px grey;
+    margin-top: 120px;
+}
